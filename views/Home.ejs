@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="/css/home.css">
+<% for(h of habit){%>
+<div id="show-list-container">
+    <div id="show-list-checkbox">
+        <input type="checkbox" id="check" name="check">
+    </div>
+
+    <div id="show-detail-container">
+        <div id="show-detail-container1">
+            <div id="show-detail-container1-1"> 
+                <h3><%=h.name%></h3>
+            </div>
+            <div id="show-detail-container1-2">
+                <p><%=h.time%></p>
+            </div>
+        </div>
+        <div id="show-detail-container2">
+            <div id="show-detail-container2-1">
+                <p><%=h.day%></p>
+            </div>
+            <div id="show-detail-container2-1">
+                <p><%=h.best%></p>
+            </div>
+            <div id="show-detail-container2-1">
+                <p><%=h.number%></p>
+            </div>
+            <div id="show-detail-container2-1">
+                <p>Daily</p>
+            </div>
+        </div>
+    </div>
+</div>
+<%}%>
+<div id="add-button">
+    <a href="/habit-form">Add Habit</a>
+</div>

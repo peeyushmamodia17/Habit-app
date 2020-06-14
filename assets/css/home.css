@@ -1,0 +1,55 @@
+#show-list-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: lightgray;
+  border-bottom: 1px solid black; }
+  #show-list-container #show-list-checkbox {
+    width: 5%;
+    padding-top: 40px; }
+  #show-list-container #show-detail-container {
+    width: 95%;
+    display: flex;
+    flex-direction: column; }
+    #show-list-container #show-detail-container #show-detail-container1 {
+      width: 100%;
+      display: flex;
+      flex-direction: row; }
+      #show-list-container #show-detail-container #show-detail-container1 #show-detail-container1-1 {
+        width: 90%;
+        color: red;
+        margin-top: 5px; }
+      #show-list-container #show-detail-container #show-detail-container1 #show-detail-container1-1 h3 {
+        margin: 0px; }
+      #show-list-container #show-detail-container #show-detail-container1 #show-detail-container1-2 {
+        width: 10%;
+        margin: 5px;
+        opacity: 0.8; }
+      #show-list-container #show-detail-container #show-detail-container1 #show-detail-container1-2 p {
+        margin: 0px;
+        font-size: 0.8rem; }
+    #show-list-container #show-detail-container #show-detail-container2 {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px; }
+      #show-list-container #show-detail-container #show-detail-container2 #show-detail-container2-1 {
+        width: 25%;
+        font-size: 0.8rem;
+        opacity: 0.8; }
+        #show-list-container #show-detail-container #show-detail-container2 #show-detail-container2-1 #show-detail-container2-1 p {
+          margin: 0px; }
+
+#add-button {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px; }
+
+#add-button a {
+  text-decoration: none;
+  color: red;
+  font-size: 1.3rem;
+  font-weight: 1rem;
+  padding: 10px 20px;
+  background-color: lightcoral; }
